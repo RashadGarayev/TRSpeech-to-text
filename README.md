@@ -43,8 +43,7 @@ To install and use deepspeech all you have to do is:
 -------------------------------------------------------
 ## Testing model
 #### download lm.binary file from google drive
-https://drive.google.com/file/d/18Vl_wwtKs2ySyEKAXFte28SrcI1rtz9d/view?usp=sharing
-
+https://drive.google.com/open?id=1n2VCKosd2JsCVF1TQWIkKbVdeLQf2OYJ
 deepspeech --model '/model/output_graph.pb' --lm '/data/lm/lm.binary' --trie '/data/lm/trie' --audio example.wav
 
 -------------------------------------------------------
