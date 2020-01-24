@@ -9,7 +9,7 @@ DeepSpeech is an open source Speech-To-Text engine, using a model trained by mac
 https://github.com/mozilla/DeepSpeech/blob/master/doc/TRAINING.rst#training-your-own-model
 
 
-# Installation
+### Installation
 -----------
 
 
@@ -26,7 +26,7 @@ To install and use deepspeech all you have to do is:
 
    https://voice.mozilla.org/tr/datasets
 
-   # pre-trained Turkish model 
+   ### pre-trained Turkish model 
    For the language model, I used kenlm’
    lmplz -o 2 < text > text.arpa
 
