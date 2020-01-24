@@ -26,8 +26,7 @@ To install and use deepspeech all you have to do is:
    For the language model, I used kenlm’
    lmplz -o 2 < text > text.arpa
 
-**train this model ** :
-    
+## Training model
     sudo ./run-ldc93s1.sh
     
     Quicker inference can be performed using a supported NVIDIA GPU on Linux. See the `release notes <https://github.com/mozilla/DeepSpeech/releases/latest>`_ to find which GPUs are supported. To run ``deepspeech`` on a GPU, install the GPU specific package:
