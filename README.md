@@ -46,5 +46,4 @@ https://drive.google.com/file/d/18Vl_wwtKs2ySyEKAXFte28SrcI1rtz9d/view?usp=shari
 deepspeech --model '/model/output_graph.pb' --lm '/data/lm/lm.binary' --trie '/data/lm/trie' --audio example.wav
 
 -------------------------------------------------------
-import IPython.display as ipd
-ipd.Audio('example.wav')
+
