@@ -7,8 +7,9 @@ DeepSpeech is an open source Speech-To-Text engine, using a model trained by mac
 
 # Installation
 
-'''
+
 pip3 install -r requirements.txt
+-----------
 pip3 install deepspeech
-'''
+-----------
 
