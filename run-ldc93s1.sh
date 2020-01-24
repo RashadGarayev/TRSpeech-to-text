@@ -19,5 +19,5 @@ python3 -u DeepSpeech.py --train_files mod/clips/train.csv \
   --n_hidden 100 \
   --epochs 1000 \
   --learning_rate 0.0001 \
-  --checkpoint_dir "/home/rashad/Downloads/DeepSpeech/models/checkpoints" 
+  --checkpoint_dir "/checkpoints" 
   
