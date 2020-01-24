@@ -32,8 +32,6 @@ To install and use deepspeech all you have to do is:
     
     Quicker inference can be performed using a supported NVIDIA GPU on Linux. See the `release notes <https://github.com/mozilla/DeepSpeech/releases/latest>`_ to find which GPUs are supported. To run ``deepspeech`` on a GPU, install the GPU specific package:
 
-.. code-block:: bash
-
    # Create and activate a virtualenv
    virtualenv -p python3 $HOME/tmp/deepspeech-gpu-venv/
    source $HOME/tmp/deepspeech-gpu-venv/bin/activate
