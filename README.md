@@ -13,14 +13,12 @@ https://voice.mozilla.org/tr/datasets
 
 ### Installation
 -----------
-
-
-
-
+    
+    git clone https://github.com/mozilla/DeepSpeech
+    cd DeepSpeech
     pip3 install -r requirements.txt
-
     pip3 install deepspeech
-
+    
 To install and use deepspeech all you have to do is:
 
    
@@ -28,7 +26,7 @@ To install and use deepspeech all you have to do is:
 
    
    
-   git clone https://github.com/mozilla/DeepSpeech
+   
    
    ### pre-trained Turkish model 
    For the language model, I used kenlm’
