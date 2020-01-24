@@ -46,6 +46,4 @@ deepspeech --model '/model/output_graph.pb' --lm '/data/lm/lm.binary' --trie '/d
 
 <audio controls="controls">
   <source type="audio/mp3" src="example.wav"></source>
-  
-  <p>Your browser does not support the audio element.</p>
 </audio>
