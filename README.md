@@ -57,6 +57,7 @@ https://drive.google.com/open?id=1n2VCKosd2JsCVF1TQWIkKbVdeLQf2OYJ
 deepspeech --model '/model/output_graph.pb' --lm '/data/lm/lm.binary' --trie '/data/lm/trie' --audio example.wav
 
 -------------------------------------------------------
-## Real-time DeepSpeech Analysis
+## Real-time DeepSpeech Analysis 
+   python code example
 
 https://discourse.mozilla.org/t/real-time-deepspeech-analysis-using-built-in-microphone/42669
