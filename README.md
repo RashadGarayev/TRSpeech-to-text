@@ -8,6 +8,8 @@ DeepSpeech is an open source Speech-To-Text engine, using a model trained by mac
 ## Training Your Own Model
 https://github.com/mozilla/DeepSpeech/blob/master/doc/TRAINING.rst#training-your-own-model
 
+'Turkish Language  TSV file'
+https://voice.mozilla.org/tr/datasets
 
 ### Installation
 -----------
@@ -24,7 +26,7 @@ To install and use deepspeech all you have to do is:
    
    pip3 install deepspeech
 
-   https://voice.mozilla.org/tr/datasets
+   
    
    git clone https://github.com/mozilla/DeepSpeech
    
