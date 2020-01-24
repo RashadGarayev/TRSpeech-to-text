@@ -34,4 +34,7 @@ To install and use deepspeech all you have to do is:
    # Install DeepSpeech CUDA enabled package
    pip3 install deepspeech-gpu
 
+-------------------------------------------------------
+
+deepspeech --model '/model/output_graph.pb' --lm '/data/lm/lm.binary' --trie '/data/lm/trie' --audio example.wav
 
