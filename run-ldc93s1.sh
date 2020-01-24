@@ -15,7 +15,7 @@ python3 -u DeepSpeech.py --train_files mod/clips/train.csv \
   --test_files mod/clips/test.csv \
   --train_batch_size 32 \
   --test_batch_size 32 \
-  --export_dir "/home/rashad/Downloads/DeepSpeech/models/model" \
+  --export_dir "/exportmodel" \
   --n_hidden 100 \
   --epochs 1000 \
   --learning_rate 0.0001 \
