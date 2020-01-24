@@ -25,7 +25,9 @@ To install and use deepspeech all you have to do is:
    pip3 install deepspeech
 
    https://voice.mozilla.org/tr/datasets
-
+   
+   git clone https://github.com/mozilla/DeepSpeech
+   
    ### pre-trained Turkish model 
    For the language model, I used kenlm’
    lmplz -o 2 < vocabulary > text.arpa
