@@ -33,6 +33,16 @@ To install and use deepspeech all you have to do is:
    ### pre-trained Turkish model 
    For the language model, I used kenlm’
    lmplz -o 2 < vocabulary > text.arpa
+   -----------------------------------
+   build_binary text.arpa lm.binary
+   
+   ##### after training 
+    loss = 6.42
+   
+    /model/output_graph.pb
+     
+
+   
 
 ## Training model
     sudo ./run-ldc93s1.sh
