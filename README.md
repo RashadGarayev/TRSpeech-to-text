@@ -42,3 +42,10 @@ To install and use deepspeech all you have to do is:
 ### Testing model
 deepspeech --model '/model/output_graph.pb' --lm '/data/lm/lm.binary' --trie '/data/lm/trie' --audio example.wav
 
+-------------------------------------------------------
+
+<audio controls="controls">
+  <source type="audio/mp3" src="example.wav"></source>
+  
+  <p>Your browser does not support the audio element.</p>
+</audio>
