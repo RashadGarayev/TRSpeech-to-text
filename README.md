@@ -39,7 +39,10 @@ To install and use deepspeech all you have to do is:
    pip3 install deepspeech-gpu
 
 -------------------------------------------------------
-### Testing model
+## Testing model
+#### download lm.binary file from google drive
+https://drive.google.com/file/d/18Vl_wwtKs2ySyEKAXFte28SrcI1rtz9d/view?usp=sharing
+
 deepspeech --model '/model/output_graph.pb' --lm '/data/lm/lm.binary' --trie '/data/lm/trie' --audio example.wav
 
 -------------------------------------------------------
