@@ -17,11 +17,7 @@ DeepSpeech is an open source Speech-To-Text engine, using a model trained by mac
 
 To install and use deepspeech all you have to do is:
 
-.. code-block:: bash
-
    
-
-   # Install DeepSpeech
    pip3 install deepspeech
 
    https://voice.mozilla.org/tr/datasets
