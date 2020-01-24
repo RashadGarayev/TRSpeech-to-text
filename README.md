@@ -15,6 +15,34 @@ DeepSpeech is an open source Speech-To-Text engine, using a model trained by mac
 
     pip3 install deepspeech
 
+To install and use deepspeech all you have to do is:
 
+.. code-block:: bash
+
+   
+
+   # Install DeepSpeech
+   pip3 install deepspeech
+
+   https://voice.mozilla.org/tr/datasets
+
+   # pre-trained Turkish model 
+   For the language model, I used kenlm’
+   lmplz -o 2 < text > text.arpa
+
+**train this model ** :
+    
+    sudo ./run-ldc93s1.sh
+    
+    Quicker inference can be performed using a supported NVIDIA GPU on Linux. See the `release notes <https://github.com/mozilla/DeepSpeech/releases/latest>`_ to find which GPUs are supported. To run ``deepspeech`` on a GPU, install the GPU specific package:
+
+.. code-block:: bash
+
+   # Create and activate a virtualenv
+   virtualenv -p python3 $HOME/tmp/deepspeech-gpu-venv/
+   source $HOME/tmp/deepspeech-gpu-venv/bin/activate
+
+   # Install DeepSpeech CUDA enabled package
+   pip3 install deepspeech-gpu
 
 
