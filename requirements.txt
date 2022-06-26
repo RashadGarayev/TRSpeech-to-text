@@ -1,5 +1,5 @@
 # Main training requirements
-tensorflow
+tensorflow==1.15.0
 numpy == 1.22.0
 progressbar2
 pandas
