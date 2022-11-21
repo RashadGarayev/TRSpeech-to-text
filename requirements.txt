@@ -1,5 +1,5 @@
 # Main training requirements
-tensorflow==2.7.2
+tensorflow==2.9.3
 numpy 
 progressbar2
 pandas
